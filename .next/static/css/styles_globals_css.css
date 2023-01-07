@@ -507,6 +507,12 @@ video {
 .left-\[45\%\] {
   left: 45%;
 }
+.-left-\[10\%\] {
+  left: -10%;
+}
+.top-\[3\%\] {
+  top: 3%;
+}
 .z-0 {
   z-index: 0;
 }
@@ -563,6 +569,9 @@ video {
 .mt-\[68px\] {
   margin-top: 68px;
 }
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
 .flex {
   display: flex;
 }
@@ -614,8 +623,24 @@ video {
 .h-\[40\%\] {
   height: 40%;
 }
+.h-auto {
+  height: auto;
+}
+.h-\[155px\] {
+  height: 155px;
+}
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.h-\[2px\] {
+  height: 2px;
+}
 .min-h-\[70vh\] {
   min-height: 70vh;
+}
+.min-h-\[210px\] {
+  min-height: 210px;
 }
 .w-full {
   width: 100%;
@@ -653,6 +678,9 @@ video {
 .w-\[40\%\] {
   width: 40%;
 }
+.w-\[155px\] {
+  width: 155px;
+}
 .min-w-\[170px\] {
   min-width: 170px;
 }
@@ -676,6 +704,9 @@ video {
 }
 .flex-\[0\.75\] {
   flex: 0.75;
+}
+.flex-\[0\.5\] {
+  flex: 0.5;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -722,6 +753,12 @@ video {
 .gap-4 {
   gap: 1rem;
 }
+.gap-6 {
+  gap: 1.5rem;
+}
+.gap-\[12px\] {
+  gap: 12px;
+}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -733,6 +770,9 @@ video {
 }
 .rounded-\[32px\] {
   border-radius: 32px;
+}
+.rounded-\[40px\] {
+  border-radius: 40px;
 }
 .rounded-b-\[24px\] {
   border-bottom-right-radius: 24px;
@@ -755,6 +795,10 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
+.border-\[\#6a6a6a\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(106 106 106 / var(--tw-border-opacity));
+}
 .bg-primary-black {
   --tw-bg-opacity: 1;
   background-color: rgb(26 35 46 / var(--tw-bg-opacity));
@@ -773,6 +817,18 @@ video {
 .bg-transparent {
   background-color: transparent;
 }
+.bg-\[\#5D6680\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(93 102 128 / var(--tw-bg-opacity));
+}
+.bg-\[\#25618b\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 97 139 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -787,6 +843,9 @@ video {
 .p-\[6px\] {
   padding: 6px;
 }
+.p-4 {
+  padding: 1rem;
+}
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -798,6 +857,10 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .pl-6 {
   padding-left: 1.5rem;
@@ -841,6 +904,9 @@ video {
 .text-\[26px\] {
   font-size: 26px;
 }
+.text-\[12px\] {
+  font-size: 12px;
+}
 .font-normal {
   font-weight: 400;
 }
@@ -868,6 +934,15 @@ video {
 .leading-\[64\.4px\] {
   line-height: 64.4px;
 }
+.leading-\[36px\] {
+  line-height: 36px;
+}
+.leading-\[16px\] {
+  line-height: 16px;
+}
+.leading-\[39px\] {
+  line-height: 39px;
+}
 .text-secondary-white {
   --tw-text-opacity: 1;
   color: rgb(199 199 199 / var(--tw-text-opacity));
@@ -879,6 +954,12 @@ video {
 .text-\[\#B0B0B0\] {
   --tw-text-opacity: 1;
   color: rgb(176 176 176 / var(--tw-text-opacity));
+}
+.opacity-10 {
+  opacity: 0.1;
+}
+.opacity-50 {
+  opacity: 0.5;
 }
 .transition-\[flex\] {
   transition-property: flex;
@@ -1031,8 +1112,17 @@ video {
     max-width: 250px;
   }
 
+  .sm\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
   .sm\:p-16 {
     padding: 4rem;
+  }
+
+  .sm\:p-8 {
+    padding: 2rem;
   }
 
   .sm\:py-16 {
@@ -1069,8 +1159,32 @@ video {
     font-size: 60px;
   }
 
+  .sm\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .sm\:text-\[24px\] {
+    font-size: 24px;
+  }
+
   .sm\:leading-\[74\.4px\] {
     line-height: 74.4px;
+  }
+
+  .sm\:leading-\[40px\] {
+    line-height: 40px;
+  }
+
+  .sm\:leading-\[22px\] {
+    line-height: 22px;
+  }
+
+  .sm\:leading-\[245px\] {
+    line-height: 245px;
+  }
+
+  .sm\:leading-\[24px\] {
+    line-height: 24px;
   }
 }
 
@@ -1123,12 +1237,24 @@ video {
     bottom: 5rem;
   }
 
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:flex {
     display: flex;
   }
 
+  .lg\:h-\[610px\] {
+    height: 610px;
+  }
+
   .lg\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .lg\:max-w-\[370px\] {
+    max-width: 370px;
   }
 
   .lg\:flex-\[3\.5\] {
@@ -1150,6 +1276,11 @@ video {
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 
   .lg\:text-\[144px\] {
