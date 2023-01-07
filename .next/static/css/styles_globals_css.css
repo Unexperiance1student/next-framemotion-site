@@ -636,6 +636,12 @@ video {
 .h-\[2px\] {
   height: 2px;
 }
+.h-\[1550px\] {
+  height: 1550px;
+}
+.h-\[650px\] {
+  height: 650px;
+}
 .min-h-\[70vh\] {
   min-height: 70vh;
 }
